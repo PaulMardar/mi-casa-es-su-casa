@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div id="solicitari">
+        <ion-list>
+            <ion-item *ngFor="let request of data">
+                <ion-label class="ion-text-wrap">
+                    {{request.phone}}
+                    <p>
+                        {{request.stamp}}
+                        <br> {{request.auto}}
+                    </p>
+                </ion-label>
+            </ion-item>
+        </ion-list>
+    </div>
+    <!-- <div id="container" *ngIf="data != null && data.length==0">
+        Nimic nou momentan!
+    </div> -->
+</ion-content>
