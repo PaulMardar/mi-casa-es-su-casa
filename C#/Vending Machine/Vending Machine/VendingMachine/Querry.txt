@@ -1,0 +1,15 @@
+﻿drop table Product
+
+create Table Product(
+    ProductId int,
+    [Name] nvarchar(255),
+    Price float,
+    Quantity int)
+
+insert into Product values (1, 'Oreo',1.00, 1),
+           (2, 'Kit-Kat', 1.50, 8),
+            (3, 'Coca Cola', 1.25, 2),
+            (4, 'Fanta', 1.25, 5),
+            (5, 'Pepsi', 1.00, 7)
+
+select * from Productdrop table Product

@@ -1,0 +1,98 @@
+
+ID is: 0
+File table is: []
+Execution stack is [(v is a Ref(int);(New Heap allocation v,20;(a is a Ref(Ref(int));(New Heap allocation a,v;(New Heap allocation v,30;(print v;print a)))))),]
+Table symbol is: { }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [v is a Ref(int),(New Heap allocation v,20;(a is a Ref(Ref(int));(New Heap allocation a,v;(New Heap allocation v,30;(print v;print a))))),]
+Table symbol is: { }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [(New Heap allocation v,20;(a is a Ref(Ref(int));(New Heap allocation a,v;(New Heap allocation v,30;(print v;print a))))),]
+Table symbol is: { v = (0 , int), }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [New Heap allocation v,20,(a is a Ref(Ref(int));(New Heap allocation a,v;(New Heap allocation v,30;(print v;print a)))),]
+Table symbol is: { v = (0 , int), }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [(a is a Ref(Ref(int));(New Heap allocation a,v;(New Heap allocation v,30;(print v;print a)))),]
+Table symbol is: { v = (1 , int), }
+Out list =[ ]
+heap :{ 1 = 20, }
+
+ID is: 0
+File table is: []
+Execution stack is [a is a Ref(Ref(int)),(New Heap allocation a,v;(New Heap allocation v,30;(print v;print a))),]
+Table symbol is: { v = (1 , int), }
+Out list =[ ]
+heap :{ 1 = 20, }
+
+ID is: 0
+File table is: []
+Execution stack is [(New Heap allocation a,v;(New Heap allocation v,30;(print v;print a))),]
+Table symbol is: { a = (0 , Ref(int)), v = (1 , int), }
+Out list =[ ]
+heap :{ 1 = 20, }
+
+ID is: 0
+File table is: []
+Execution stack is [New Heap allocation a,v,(New Heap allocation v,30;(print v;print a)),]
+Table symbol is: { a = (0 , Ref(int)), v = (1 , int), }
+Out list =[ ]
+heap :{ 1 = 20, }
+
+ID is: 0
+File table is: []
+Execution stack is [(New Heap allocation v,30;(print v;print a)),]
+Table symbol is: { a = (2 , Ref(int)), v = (1 , int), }
+Out list =[ ]
+heap :{ 1 = 20, 2 = (1 , int), }
+
+ID is: 0
+File table is: []
+Execution stack is [New Heap allocation v,30,(print v;print a),]
+Table symbol is: { a = (2 , Ref(int)), v = (1 , int), }
+Out list =[ ]
+heap :{ 1 = 20, 2 = (1 , int), }
+
+ID is: 0
+File table is: []
+Execution stack is [(print v;print a),]
+Table symbol is: { a = (2 , Ref(int)), v = (3 , int), }
+Out list =[ ]
+heap :{ 1 = 20, 2 = (1 , int), 3 = 30, }
+
+ID is: 0
+File table is: []
+Execution stack is [print v,print a,]
+Table symbol is: { a = (2 , Ref(int)), v = (3 , int), }
+Out list =[ ]
+heap :{ 1 = 20, 2 = (1 , int), 3 = 30, }
+
+ID is: 0
+File table is: []
+Execution stack is [print a,]
+Table symbol is: { a = (2 , Ref(int)), v = (3 , int), }
+Out list =[ 30,]
+heap :{ 1 = 20, 2 = (1 , int), 3 = 30, }
+
+ID is: 0
+File table is: []
+Execution stack is []
+Table symbol is: { a = (2 , Ref(int)), v = (3 , int), }
+Out list =[ 30,20,]
+heap :{ 1 = 20, 2 = (1 , int), 3 = 30, }

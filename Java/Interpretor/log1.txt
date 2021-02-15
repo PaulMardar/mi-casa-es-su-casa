@@ -1,0 +1,42 @@
+
+ID is: 0
+File table is: []
+Execution stack is [(v is a int;(v = 2;print v)),]
+Table symbol is: { }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [v is a int,(v = 2;print v),]
+Table symbol is: { }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [(v = 2;print v),]
+Table symbol is: { v = 0, }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [v = 2,print v,]
+Table symbol is: { v = 0, }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [print v,]
+Table symbol is: { v = 2, }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is []
+Table symbol is: { v = 2, }
+Out list =[ 2,]
+heap :{ }
