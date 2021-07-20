@@ -1,0 +1,94 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:iQuest.CaesarCipher.PresentationBase.Controls">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Pack://application:,,,/iQuest.CaesarCipher.PresentationBase;component/Themes/Colors.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <SolidColorBrush x:Key="ErrorBlockBackgroundBrush" Color="{StaticResource ErrorColor}" Opacity="0.15" />
+
+    <Style TargetType="{x:Type local:ErrorBlock}">
+        <Setter Property="FontFamily" Value="OpenSans" />
+        <Setter Property="FontWeight" Value="Normal" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="Foreground" Value="{StaticResource ErrorBrush}" />
+        <Setter Property="Background" Value="{StaticResource ErrorBlockBackgroundBrush}" />
+        <Setter Property="IsTabStop" Value="False" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="BorderBrush" Value="{StaticResource ErrorBrush}" />
+        <Setter Property="Padding" Value="11" />
+        <Setter Property="Margin" Value="0 10" />
+
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:ErrorBlock}">
+
+                    <Border
+                        x:Name="MessageContainer"
+                        SnapsToDevicePixels="True"
+                        BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderThickness="{TemplateBinding BorderThickness}"
+                        CornerRadius="2"
+                        Padding="{TemplateBinding Padding}"
+                        Background="{TemplateBinding Background}">
+
+                        <DockPanel>
+
+                            <Image
+                                DockPanel.Dock="Left"
+                                SnapsToDevicePixels="True"
+                                Source="pack://application:,,,/iQuest.CaesarCipher.PresentationBase;component/Images/error-small-icon.png"
+                                Stretch="None"
+                                VerticalAlignment="Top"
+                                Margin="0 0 10 0" />
+
+                            <ContentPresenter
+                                x:Name="TitleContainer"
+                                DockPanel.Dock="Top"
+                                Content="{TemplateBinding Title}"
+                                Margin="0 0 0 4">
+
+                                <ContentPresenter.Resources>
+                                    <Style TargetType="{x:Type TextBlock}">
+                                        <Setter Property="TextWrapping" Value="Wrap" />
+                                        <Setter Property="Foreground" Value="{StaticResource ErrorBrush}" />
+                                    </Style>
+                                </ContentPresenter.Resources>
+
+                            </ContentPresenter>
+
+                            <ContentPresenter
+                                Content="{TemplateBinding Content}">
+
+                                <ContentPresenter.Resources>
+                                    <Style TargetType="{x:Type TextBlock}">
+                                        <Setter Property="TextWrapping" Value="Wrap" />
+                                        <Setter Property="TextAlignment" Value="Justify" />
+                                        <Setter Property="Foreground" Value="{StaticResource ErrorBrush}" />
+                                    </Style>
+                                </ContentPresenter.Resources>
+
+                            </ContentPresenter>
+
+                        </DockPanel>
+
+                    </Border>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="Content" Value="{x:Null}">
+                            <Setter TargetName="MessageContainer" Property="Visibility" Value="Collapsed" />
+                        </Trigger>
+
+                        <Trigger Property="Title" Value="{x:Null}">
+                            <Setter TargetName="TitleContainer" Property="Visibility" Value="Collapsed" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>

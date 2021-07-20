@@ -1,0 +1,16 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Pack://application:,,,/iQuest.CaesarCipher.PresentationBase;component/Themes/Colors.xaml" />
+        <ResourceDictionary Source="Pack://application:,,,/iQuest.CaesarCipher.PresentationBase;component/Themes/ButtonStyles.xaml" />
+        <ResourceDictionary Source="Pack://application:,,,/iQuest.CaesarCipher.PresentationBase;component/Themes/LabelStyles.xaml" />
+        <ResourceDictionary Source="Pack://application:,,,/iQuest.CaesarCipher.PresentationBase;component/Themes/TextBoxStyles.xaml" />
+        <ResourceDictionary Source="Pack://application:,,,/iQuest.CaesarCipher.PresentationBase;component/Themes/TextBlockStyles.xaml" />
+        <ResourceDictionary Source="Pack://application:,,,/iQuest.CaesarCipher.PresentationBase;component/Themes/StatusBarStyles.xaml" />
+        
+        <ResourceDictionary Source="Pack://application:,,,/iQuest.CaesarCipher.PresentationBase;component/Themes/ErrorBlockStyles.xaml" />
+        <ResourceDictionary Source="Pack://application:,,,/iQuest.CaesarCipher.PresentationBase;component/Themes/LedStyles.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+</ResourceDictionary>

@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <AssemblyName>iQuest.HotelQueries.Tests</AssemblyName>
+        <RootNamespace>iQuest.HotelQueries.Tests</RootNamespace>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <Company>Nagarro iQuest</Company>
+        <Authors>Remote Learning</Authors>
+        <Product>Hotel Queries</Product>
+        <Description>This is an exercise used in the Remote Learning program from Naraggo iQuest.</Description>
+        <Copyright>Copyright © Naraggo iQuest 2020</Copyright>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+        <PackageReference Include="MSTest.TestAdapter" Version="2.1.0" />
+        <PackageReference Include="MSTest.TestFramework" Version="2.1.0" />
+        <PackageReference Include="coverlet.collector" Version="1.2.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\HotelQueries.DataAccess\HotelQueries.DataAccess.csproj" />
+        <ProjectReference Include="..\HotelQueries.Domain\HotelQueries.Domain.csproj" />
+        <ProjectReference Include="..\HotelQueries\HotelQueries.csproj" />
+    </ItemGroup>
+
+</Project>

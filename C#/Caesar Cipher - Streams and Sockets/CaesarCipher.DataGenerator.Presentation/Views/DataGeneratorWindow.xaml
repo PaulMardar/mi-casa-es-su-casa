@@ -1,0 +1,123 @@
+﻿<Window
+    x:Class="iQuest.CaesarCipher.DataGenerator.Presentation.Views.DataGeneratorWindow"
+
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModels="clr-namespace:iQuest.CaesarCipher.DataGenerator.Presentation.ViewModels"
+    xmlns:controls="clr-namespace:iQuest.CaesarCipher.PresentationBase.Controls;assembly=iQuest.CaesarCipher.PresentationBase"
+    xmlns:valueConverters="clr-namespace:iQuest.CaesarCipher.PresentationBase.ValueConverters;assembly=iQuest.CaesarCipher.PresentationBase"
+
+    mc:Ignorable="d"
+    Title="Caesar's Cipher - Data Generator"
+    Height="550"
+    Width="500"
+    ResizeMode="CanResizeWithGrip"
+    d:DataContext="{d:DesignInstance viewModels:DataGeneratorViewModel}">
+
+    <Window.Resources>
+
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Pack://application:,,,/iQuest.CaesarCipher.PresentationBase;component/Themes/Colors.xaml" />
+                <ResourceDictionary Source="Pack://application:,,,/iQuest.CaesarCipher.PresentationBase;component/Themes/ButtonStyles.xaml" />
+                <ResourceDictionary Source="Pack://application:,,,/iQuest.CaesarCipher.PresentationBase;component/Themes/LabelStyles.xaml" />
+                <ResourceDictionary Source="Pack://application:,,,/iQuest.CaesarCipher.PresentationBase;component/Themes/TextBoxStyles.xaml" />
+                <ResourceDictionary Source="Pack://application:,,,/iQuest.CaesarCipher.PresentationBase;component/Themes/TextBlockStyles.xaml" />
+                <ResourceDictionary Source="Pack://application:,,,/iQuest.CaesarCipher.PresentationBase;component/Themes/ErrorBlockStyles.xaml" />
+                <ResourceDictionary Source="Pack://application:,,,/iQuest.CaesarCipher.PresentationBase;component/Themes/StatusBarStyles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <valueConverters:IpAddressToStringConverter x:Key="IpAddressToStringConverter" />
+            <valueConverters:NullToVisibilityConverter x:Key="NullToVisibilityConverter" />
+        </ResourceDictionary>
+
+    </Window.Resources>
+
+    <DockPanel>
+
+        <StatusBar DockPanel.Dock="Bottom">
+
+            <StatusBarItem>
+                <controls:Led State="{Binding LedState}"/>
+            </StatusBarItem>
+
+            <StatusBarItem>
+                <TextBlock
+                    Foreground="Gray"
+                    Text="Sent bytes:" />
+            </StatusBarItem>
+
+            <StatusBarItem>
+                <TextBlock
+                    Foreground="Gray"
+                    Text="{Binding BytesSentCount, StringFormat={}{0:#,##0} bytes}" />
+            </StatusBarItem>
+
+        </StatusBar>
+
+        <DockPanel Margin="30">
+
+            <Button
+                DockPanel.Dock="Bottom"
+                Command="{Binding StartStopCommand}"
+                Content="{Binding StartButtonText}" />
+
+            <controls:ErrorBlock
+                DockPanel.Dock="Bottom"
+                Content="{Binding ErrorMessage}"
+                Visibility="{Binding ErrorMessage, Converter={StaticResource NullToVisibilityConverter}}"
+                Margin="0 20" />
+
+            <ScrollViewer
+                HorizontalScrollBarVisibility="Disabled"
+                VerticalScrollBarVisibility="Auto">
+
+                <StackPanel IsEnabled="{Binding AreDataInputFieldsEnabled}">
+
+                    <StackPanel.Resources>
+
+                        <Style TargetType="Label" BasedOn="{StaticResource {x:Type Label}}">
+                            <Setter Property="Margin" Value="0 0 0 8" />
+                        </Style>
+
+                        <Style TargetType="TextBox" BasedOn="{StaticResource {x:Type TextBox}}">
+                            <Setter Property="Margin" Value="0 0 0 20" />
+                        </Style>
+
+                    </StackPanel.Resources>
+
+                    <Label
+                        Target="{Binding ElementName=IpTextBox}"
+                        Content="_IP:" />
+
+                    <TextBox
+                        Name="IpTextBox"
+                        Text="{Binding IpAddress, Converter={StaticResource IpAddressToStringConverter}}" />
+
+                    <Label
+                        Target="{Binding ElementName=PortTextBox}"
+                        Content="_Port:" />
+
+                    <TextBox
+                        Name="PortTextBox"
+                        Text="{Binding Port, UpdateSourceTrigger=PropertyChanged}" />
+
+                    <Label
+                        Target="{Binding ElementName=LagTextBox}"
+                        Content="Data sending _lag:" />
+
+                    <TextBox
+                        Name="LagTextBox"
+                        Text="{Binding Lag, UpdateSourceTrigger=PropertyChanged}" />
+
+                </StackPanel>
+
+            </ScrollViewer>
+
+        </DockPanel>
+
+    </DockPanel>
+
+</Window>

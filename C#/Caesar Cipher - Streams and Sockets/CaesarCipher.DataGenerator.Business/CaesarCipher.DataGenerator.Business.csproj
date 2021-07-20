@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <AssemblyName>iQuest.CaesarCipher.DataGenerator.Business</AssemblyName>
+        <RootNamespace>iQuest.CaesarCipher.DataGenerator.Business</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="SocketDataSender.cs" />
+    </ItemGroup>
+
+</Project>

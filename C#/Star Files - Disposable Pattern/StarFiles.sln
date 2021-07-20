@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarFiles", "StarFiles\StarFiles.csproj", "{CAB40A53-25A9-4D6E-A1B7-9231060E7617}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarFiles.WinApi", "StarFiles.WinApi\StarFiles.WinApi.csproj", "{C7A4B6A8-AFF7-49EE-B38E-FB1B434B6680}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAB40A53-25A9-4D6E-A1B7-9231060E7617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAB40A53-25A9-4D6E-A1B7-9231060E7617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAB40A53-25A9-4D6E-A1B7-9231060E7617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAB40A53-25A9-4D6E-A1B7-9231060E7617}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7A4B6A8-AFF7-49EE-B38E-FB1B434B6680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7A4B6A8-AFF7-49EE-B38E-FB1B434B6680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7A4B6A8-AFF7-49EE-B38E-FB1B434B6680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7A4B6A8-AFF7-49EE-B38E-FB1B434B6680}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50EC525B-EEC6-4B4F-A8C1-CBA910F72969}
+	EndGlobalSection
+EndGlobal

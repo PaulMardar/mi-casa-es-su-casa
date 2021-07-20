@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <AssemblyName>iQuest.CaesarCipher.DataGenerator.Presentation</AssemblyName>
+        <RootNamespace>iQuest.CaesarCipher.DataGenerator.Presentation</RootNamespace>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CaesarCipher.DataGenerator.Business\CaesarCipher.DataGenerator.Business.csproj" />
+      <ProjectReference Include="..\CaesarCipher.PresentationBase\CaesarCipher.PresentationBase.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Page Update="Views\DataGeneratorWindow.xaml">
+            <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+        </Page>
+    </ItemGroup>
+
+</Project>

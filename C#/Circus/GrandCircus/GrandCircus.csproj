@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <AssemblyName>iQuest.GrandCircus</AssemblyName>
+        <RootNamespace>iQuest.GrandCircus</RootNamespace>
+    </PropertyGroup>
+
+</Project>

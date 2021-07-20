@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>iQuest.TheUniverse.Presentation</RootNamespace>
+        <AssemblyName>iQuest.TheUniverse.Presentation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <Company>Nagarro iQuest</Company>
+        <Authors>Remote Learning</Authors>
+        <Product>The Universe</Product>
+        <Description>This is an exercise used in the Remote Learning program from Naraggo iQuest.</Description>
+        <Copyright>Copyright © Naraggo iQuest 2020</Copyright>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\TheUniverse.Application\TheUniverse.Application.csproj" />
+        <ProjectReference Include="..\TheUniverse.Infrastructure\TheUniverse.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>

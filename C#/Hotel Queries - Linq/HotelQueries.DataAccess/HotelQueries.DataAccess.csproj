@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <AssemblyName>iQuest.HotelQueries.DataAccess</AssemblyName>
+        <RootNamespace>iQuest.HotelQueries.DataAccess</RootNamespace>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <Company>Nagarro iQuest</Company>
+        <Authors>Remote Learning</Authors>
+        <Product>Hotel Queries</Product>
+        <Description>This is an exercise used in the Remote Learning program from Naraggo iQuest.</Description>
+        <Copyright>Copyright © Naraggo iQuest 2020</Copyright>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Remove="randomize csv.linq" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\HotelQueries.Domain\HotelQueries.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Update="Data\customers.csv">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="Data\reservations.csv">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="Data\rooms.csv">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+</Project>

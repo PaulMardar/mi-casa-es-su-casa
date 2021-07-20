@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <AssemblyName>iQuest.BooksAndNews</AssemblyName>
+        <RootNamespace>iQuest.BooksAndNews</RootNamespace>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <Company>Nagarro iQuest</Company>
+        <Authors>Remote Learning</Authors>
+        <Product>Books and News</Product>
+        <Description>This is an exercise used in the Remote Learning program from Naraggo iQuest.</Description>
+        <Copyright>Copyright © Naraggo iQuest 2020</Copyright>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\BooksAndNews.Application\BooksAndNews.Application.csproj" />
+        <ProjectReference Include="..\BooksAndNews.DataAccess\BooksAndNews.DataAccess.csproj" />
+    </ItemGroup>
+
+</Project>

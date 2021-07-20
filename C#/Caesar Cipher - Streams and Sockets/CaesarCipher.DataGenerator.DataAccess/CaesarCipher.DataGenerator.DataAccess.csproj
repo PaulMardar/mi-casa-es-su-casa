@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <AssemblyName>iQuest.CaesarCipher.DataGenerator.DataAccess</AssemblyName>
+        <RootNamespace>iQuest.CaesarCipher.DataGenerator.DataAccess</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Remove="Data\data.txt" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Include="Data\data.txt">
+            <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+        </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CaesarCipher.DataGenerator.Business\CaesarCipher.DataGenerator.Business.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <UseWPF>true</UseWPF>
+        <AssemblyName>iQuest.CaesarCipher.DataReceiver.Presentation</AssemblyName>
+        <RootNamespace>iQuest.CaesarCipher.DataReceiver.Presentation</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\CaesarCipher.DataReceiver.Business\CaesarCipher.DataReceiver.Business.csproj" />
+        <ProjectReference Include="..\CaesarCipher.PresentationBase\CaesarCipher.PresentationBase.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Page Update="Views\DataReceiverWindow.xaml">
+            <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+        </Page>
+    </ItemGroup>
+
+</Project>
