@@ -1,0 +1,55 @@
+
+Execution stack is [(a is a bool;(v is a int;(a = true;(IF(a) Then (v = 2)Else(v = 3 );print v)))),]
+Table symbol is: { }
+Outlist =[ ]
+heap :{ }
+
+Execution stack is [a is a bool,(v is a int;(a = true;(IF(a) Then (v = 2)Else(v = 3 );print v))),]
+Table symbol is: { }
+Outlist =[ ]
+heap :{ }
+
+Execution stack is [(v is a int;(a = true;(IF(a) Then (v = 2)Else(v = 3 );print v))),]
+Table symbol is: { a = false, }
+Outlist =[ ]
+heap :{ }
+
+Execution stack is [v is a int,(a = true;(IF(a) Then (v = 2)Else(v = 3 );print v)),]
+Table symbol is: { a = false, }
+Outlist =[ ]
+heap :{ }
+
+Execution stack is [(a = true;(IF(a) Then (v = 2)Else(v = 3 );print v)),]
+Table symbol is: { a = false, v = 0, }
+Outlist =[ ]
+heap :{ }
+
+Execution stack is [a = true,(IF(a) Then (v = 2)Else(v = 3 );print v),]
+Table symbol is: { a = false, v = 0, }
+Outlist =[ ]
+heap :{ }
+
+Execution stack is [(IF(a) Then (v = 2)Else(v = 3 );print v),]
+Table symbol is: { a = true, v = 0, }
+Outlist =[ ]
+heap :{ }
+
+Execution stack is [IF(a) Then (v = 2)Else(v = 3 ),print v,]
+Table symbol is: { a = true, v = 0, }
+Outlist =[ ]
+heap :{ }
+
+Execution stack is [v = 2,print v,]
+Table symbol is: { a = true, v = 0, }
+Outlist =[ ]
+heap :{ }
+
+Execution stack is [print v,]
+Table symbol is: { a = true, v = 2, }
+Outlist =[ ]
+heap :{ }
+
+Execution stack is []
+Table symbol is: { a = true, v = 2, }
+Outlist =[ 2,]
+heap :{ }

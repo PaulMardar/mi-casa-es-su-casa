@@ -1,7 +1,0 @@
-{
-  "name": "ServiceAutoConsultant",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "angular"
-}

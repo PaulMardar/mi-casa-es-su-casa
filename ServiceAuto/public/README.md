@@ -1,2 +1,0 @@
-﻿# client service - aplicația publică 
-

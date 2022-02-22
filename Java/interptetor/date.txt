@@ -1,0 +1,28 @@
+
+Execution stack is [(v is a int;(v = 2;print v)),]
+Table symbol is: { }
+Outlist =[ ]
+
+Execution stack is [(v is a int;(v = 2;print v)),]
+Table symbol is: { }
+Outlist =[ ]
+
+Execution stack is [v is a int,(v = 2;print v),]
+Table symbol is: { }
+Outlist =[ ]
+
+Execution stack is [(v = 2;print v),]
+Table symbol is: { v = 0, }
+Outlist =[ ]
+
+Execution stack is [v = 2,print v,]
+Table symbol is: { v = 0, }
+Outlist =[ ]
+
+Execution stack is [print v,]
+Table symbol is: { v = 2, }
+Outlist =[ ]
+
+Execution stack is []
+Table symbol is: { v = 2, }
+Outlist =[ 2,]

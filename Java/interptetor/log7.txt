@@ -1,0 +1,154 @@
+
+ID is: 0
+File table is: []
+Execution stack is [(v is a int;(v = 5;While( (v>=2) {(v = (v - 1);print v)})),]
+Table symbol is: { }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [v is a int,(v = 5;While( (v>=2) {(v = (v - 1);print v)}),]
+Table symbol is: { }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [(v = 5;While( (v>=2) {(v = (v - 1);print v)}),]
+Table symbol is: { v = 0, }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [v = 5,While( (v>=2) {(v = (v - 1);print v)},]
+Table symbol is: { v = 0, }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [While( (v>=2) {(v = (v - 1);print v)},]
+Table symbol is: { v = 5, }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [(v = (v - 1);print v),While( (v>=2) {(v = (v - 1);print v)},]
+Table symbol is: { v = 5, }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [v = (v - 1),print v,While( (v>=2) {(v = (v - 1);print v)},]
+Table symbol is: { v = 5, }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [print v,While( (v>=2) {(v = (v - 1);print v)},]
+Table symbol is: { v = 4, }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [While( (v>=2) {(v = (v - 1);print v)},]
+Table symbol is: { v = 4, }
+Out list =[ 4,]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [(v = (v - 1);print v),While( (v>=2) {(v = (v - 1);print v)},]
+Table symbol is: { v = 4, }
+Out list =[ 4,]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [v = (v - 1),print v,While( (v>=2) {(v = (v - 1);print v)},]
+Table symbol is: { v = 4, }
+Out list =[ 4,]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [print v,While( (v>=2) {(v = (v - 1);print v)},]
+Table symbol is: { v = 3, }
+Out list =[ 4,]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [While( (v>=2) {(v = (v - 1);print v)},]
+Table symbol is: { v = 3, }
+Out list =[ 4,3,]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [(v = (v - 1);print v),While( (v>=2) {(v = (v - 1);print v)},]
+Table symbol is: { v = 3, }
+Out list =[ 4,3,]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [v = (v - 1),print v,While( (v>=2) {(v = (v - 1);print v)},]
+Table symbol is: { v = 3, }
+Out list =[ 4,3,]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [print v,While( (v>=2) {(v = (v - 1);print v)},]
+Table symbol is: { v = 2, }
+Out list =[ 4,3,]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [While( (v>=2) {(v = (v - 1);print v)},]
+Table symbol is: { v = 2, }
+Out list =[ 4,3,2,]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [(v = (v - 1);print v),While( (v>=2) {(v = (v - 1);print v)},]
+Table symbol is: { v = 2, }
+Out list =[ 4,3,2,]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [v = (v - 1),print v,While( (v>=2) {(v = (v - 1);print v)},]
+Table symbol is: { v = 2, }
+Out list =[ 4,3,2,]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [print v,While( (v>=2) {(v = (v - 1);print v)},]
+Table symbol is: { v = 1, }
+Out list =[ 4,3,2,]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [While( (v>=2) {(v = (v - 1);print v)},]
+Table symbol is: { v = 1, }
+Out list =[ 4,3,2,1,]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is []
+Table symbol is: { v = 1, }
+Out list =[ 4,3,2,1,]
+heap :{ }

@@ -1,0 +1,364 @@
+
+ID is: 0
+File table is: []
+Execution stack is [(v is a int;(a is a Ref(int);(v = 10;(New Heap allocation a,22;(fork { (Write Heap a,30;(v = 32;(print v;print a))) };(print v;print a)))))),]
+Table symbol is: { }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [v is a int,(a is a Ref(int);(v = 10;(New Heap allocation a,22;(fork { (Write Heap a,30;(v = 32;(print v;print a))) };(print v;print a))))),]
+Table symbol is: { }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [(a is a Ref(int);(v = 10;(New Heap allocation a,22;(fork { (Write Heap a,30;(v = 32;(print v;print a))) };(print v;print a))))),]
+Table symbol is: { v = 0, }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [a is a Ref(int),(v = 10;(New Heap allocation a,22;(fork { (Write Heap a,30;(v = 32;(print v;print a))) };(print v;print a)))),]
+Table symbol is: { v = 0, }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [(v = 10;(New Heap allocation a,22;(fork { (Write Heap a,30;(v = 32;(print v;print a))) };(print v;print a)))),]
+Table symbol is: { a = (0 , int), v = 0, }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [v = 10,(New Heap allocation a,22;(fork { (Write Heap a,30;(v = 32;(print v;print a))) };(print v;print a))),]
+Table symbol is: { a = (0 , int), v = 0, }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [(New Heap allocation a,22;(fork { (Write Heap a,30;(v = 32;(print v;print a))) };(print v;print a))),]
+Table symbol is: { a = (0 , int), v = 10, }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [New Heap allocation a,22,(fork { (Write Heap a,30;(v = 32;(print v;print a))) };(print v;print a)),]
+Table symbol is: { a = (0 , int), v = 10, }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [(fork { (Write Heap a,30;(v = 32;(print v;print a))) };(print v;print a)),]
+Table symbol is: { a = (1 , int), v = 10, }
+Out list =[ ]
+heap :{ 1 = 22, }
+
+ID is: 0
+File table is: []
+Execution stack is [fork { (Write Heap a,30;(v = 32;(print v;print a))) },(print v;print a),]
+Table symbol is: { a = (1 , int), v = 10, }
+Out list =[ ]
+heap :{ 1 = 22, }
+
+ID is: 0
+File table is: []
+Execution stack is [(v is a int;(a is a Ref(int);(v = 10;(New Heap allocation a,22;(fork { (Write Heap a,30;(v = 32;(print v;print a))) };(print v;print a)))))),]
+Table symbol is: { }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [v is a int,(a is a Ref(int);(v = 10;(New Heap allocation a,22;(fork { (Write Heap a,30;(v = 32;(print v;print a))) };(print v;print a))))),]
+Table symbol is: { }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [(a is a Ref(int);(v = 10;(New Heap allocation a,22;(fork { (Write Heap a,30;(v = 32;(print v;print a))) };(print v;print a))))),]
+Table symbol is: { v = 0, }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [a is a Ref(int),(v = 10;(New Heap allocation a,22;(fork { (Write Heap a,30;(v = 32;(print v;print a))) };(print v;print a)))),]
+Table symbol is: { v = 0, }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [(v = 10;(New Heap allocation a,22;(fork { (Write Heap a,30;(v = 32;(print v;print a))) };(print v;print a)))),]
+Table symbol is: { a = (0 , int), v = 0, }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [v = 10,(New Heap allocation a,22;(fork { (Write Heap a,30;(v = 32;(print v;print a))) };(print v;print a))),]
+Table symbol is: { a = (0 , int), v = 0, }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [(New Heap allocation a,22;(fork { (Write Heap a,30;(v = 32;(print v;print a))) };(print v;print a))),]
+Table symbol is: { a = (0 , int), v = 10, }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [New Heap allocation a,22,(fork { (Write Heap a,30;(v = 32;(print v;print a))) };(print v;print a)),]
+Table symbol is: { a = (0 , int), v = 10, }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [(fork { (Write Heap a,30;(v = 32;(print v;print a))) };(print v;print a)),]
+Table symbol is: { a = (1 , int), v = 10, }
+Out list =[ ]
+heap :{ 1 = 22, }
+
+ID is: 0
+File table is: []
+Execution stack is [fork { (Write Heap a,30;(v = 32;(print v;print a))) },(print v;print a),]
+Table symbol is: { a = (1 , int), v = 10, }
+Out list =[ ]
+heap :{ 1 = 22, }
+
+ID is: 0
+File table is: []
+Execution stack is [(print v;print a),]
+Table symbol is: { a = (1 , int), v = 10, }
+Out list =[ ]
+heap :{ 1 = 22, }
+
+ID is: 1
+File table is: []
+Execution stack is [(Write Heap a,30;(v = 32;(print v;print a))),]
+Table symbol is: { a = (1 , int), v = 10, }
+Out list =[ ]
+heap :{ 1 = 22, }
+
+ID is: 0
+File table is: []
+Execution stack is [print v,print a,]
+Table symbol is: { a = (1 , int), v = 10, }
+Out list =[ ]
+heap :{ 1 = 22, }
+
+ID is: 1
+File table is: []
+Execution stack is [Write Heap a,30,(v = 32;(print v;print a)),]
+Table symbol is: { a = (1 , int), v = 10, }
+Out list =[ ]
+heap :{ 1 = 22, }
+
+ID is: 0
+File table is: []
+Execution stack is [print a,]
+Table symbol is: { a = (1 , int), v = 10, }
+Out list =[ 10,]
+heap :{ 1 = 30, }
+
+ID is: 1
+File table is: []
+Execution stack is [(v = 32;(print v;print a)),]
+Table symbol is: { a = (1 , int), v = 10, }
+Out list =[ 10,]
+heap :{ 1 = 30, }
+
+ID is: 1
+File table is: []
+Execution stack is [v = 32,(print v;print a),]
+Table symbol is: { a = (1 , int), v = 10, }
+Out list =[ 10,30,]
+heap :{ 1 = 30, }
+
+ID is: 1
+File table is: []
+Execution stack is [(print v;print a),]
+Table symbol is: { a = (1 , int), v = 32, }
+Out list =[ 10,30,]
+heap :{ 1 = 30, }
+
+ID is: 1
+File table is: []
+Execution stack is [print v,print a,]
+Table symbol is: { a = (1 , int), v = 32, }
+Out list =[ 10,30,]
+heap :{ 1 = 30, }
+
+ID is: 1
+File table is: []
+Execution stack is [print a,]
+Table symbol is: { a = (1 , int), v = 32, }
+Out list =[ 10,30,32,]
+heap :{ 1 = 30, }
+
+ID is: 0
+File table is: []
+Execution stack is []
+Table symbol is: { a = (1 , int), v = 10, }
+Out list =[ 10,30,32,30,]
+heap :{ 1 = 30, }
+
+ID is: 0
+File table is: []
+Execution stack is [(v is a int;(a is a Ref(int);(v = 10;(New Heap allocation a,22;(fork { (Write Heap a,30;(v = 32;(print v;print a))) };(print v;print a)))))),]
+Table symbol is: { }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [v is a int,(a is a Ref(int);(v = 10;(New Heap allocation a,22;(fork { (Write Heap a,30;(v = 32;(print v;print a))) };(print v;print a))))),]
+Table symbol is: { }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [(a is a Ref(int);(v = 10;(New Heap allocation a,22;(fork { (Write Heap a,30;(v = 32;(print v;print a))) };(print v;print a))))),]
+Table symbol is: { v = 0, }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [a is a Ref(int),(v = 10;(New Heap allocation a,22;(fork { (Write Heap a,30;(v = 32;(print v;print a))) };(print v;print a)))),]
+Table symbol is: { v = 0, }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [(v = 10;(New Heap allocation a,22;(fork { (Write Heap a,30;(v = 32;(print v;print a))) };(print v;print a)))),]
+Table symbol is: { a = (0 , int), v = 0, }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [v = 10,(New Heap allocation a,22;(fork { (Write Heap a,30;(v = 32;(print v;print a))) };(print v;print a))),]
+Table symbol is: { a = (0 , int), v = 0, }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [(New Heap allocation a,22;(fork { (Write Heap a,30;(v = 32;(print v;print a))) };(print v;print a))),]
+Table symbol is: { a = (0 , int), v = 10, }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [New Heap allocation a,22,(fork { (Write Heap a,30;(v = 32;(print v;print a))) };(print v;print a)),]
+Table symbol is: { a = (0 , int), v = 10, }
+Out list =[ ]
+heap :{ }
+
+ID is: 0
+File table is: []
+Execution stack is [(fork { (Write Heap a,30;(v = 32;(print v;print a))) };(print v;print a)),]
+Table symbol is: { a = (1 , int), v = 10, }
+Out list =[ ]
+heap :{ 1 = 22, }
+
+ID is: 0
+File table is: []
+Execution stack is [fork { (Write Heap a,30;(v = 32;(print v;print a))) },(print v;print a),]
+Table symbol is: { a = (1 , int), v = 10, }
+Out list =[ ]
+heap :{ 1 = 22, }
+
+ID is: 0
+File table is: []
+Execution stack is [(print v;print a),]
+Table symbol is: { a = (1 , int), v = 10, }
+Out list =[ ]
+heap :{ 1 = 22, }
+
+ID is: 1
+File table is: []
+Execution stack is [(Write Heap a,30;(v = 32;(print v;print a))),]
+Table symbol is: { a = (1 , int), v = 10, }
+Out list =[ ]
+heap :{ 1 = 22, }
+
+ID is: 0
+File table is: []
+Execution stack is [print v,print a,]
+Table symbol is: { a = (1 , int), v = 10, }
+Out list =[ ]
+heap :{ 1 = 22, }
+
+ID is: 1
+File table is: []
+Execution stack is [Write Heap a,30,(v = 32;(print v;print a)),]
+Table symbol is: { a = (1 , int), v = 10, }
+Out list =[ ]
+heap :{ 1 = 22, }
+
+ID is: 0
+File table is: []
+Execution stack is [print a,]
+Table symbol is: { a = (1 , int), v = 10, }
+Out list =[ 10,]
+heap :{ 1 = 30, }
+
+ID is: 1
+File table is: []
+Execution stack is [(v = 32;(print v;print a)),]
+Table symbol is: { a = (1 , int), v = 10, }
+Out list =[ 10,]
+heap :{ 1 = 30, }
+
+ID is: 1
+File table is: []
+Execution stack is [v = 32,(print v;print a),]
+Table symbol is: { a = (1 , int), v = 10, }
+Out list =[ 10,30,]
+heap :{ 1 = 30, }
+
+ID is: 1
+File table is: []
+Execution stack is [(print v;print a),]
+Table symbol is: { a = (1 , int), v = 32, }
+Out list =[ 10,30,]
+heap :{ 1 = 30, }
+
+ID is: 1
+File table is: []
+Execution stack is [print v,print a,]
+Table symbol is: { a = (1 , int), v = 32, }
+Out list =[ 10,30,]
+heap :{ 1 = 30, }
+
+ID is: 1
+File table is: []
+Execution stack is [print a,]
+Table symbol is: { a = (1 , int), v = 32, }
+Out list =[ 10,30,32,]
+heap :{ 1 = 30, }
+
+ID is: 0
+File table is: []
+Execution stack is []
+Table symbol is: { a = (1 , int), v = 10, }
+Out list =[ 10,30,32,30,]
+heap :{ 1 = 30, }

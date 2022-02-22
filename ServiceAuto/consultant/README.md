@@ -1,1 +1,0 @@
-﻿# consultant service - aplicația privată
