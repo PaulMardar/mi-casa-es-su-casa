@@ -1,0 +1,3 @@
+
+class ReferendumValidator():
+    pass
