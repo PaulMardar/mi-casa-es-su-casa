@@ -1,0 +1,14 @@
+
+
+<h2>Proposal</h2>
+<div *ngIf="proposal$ | async as proposal">
+  <h3>{{ proposal.name }}</h3>
+  <p>Id: {{ proposal.id }}</p>
+  <label for="proposal-name">Referendu name: {{ proposal.name }}</label>
+  <br>
+  <label for="proposal-question">Question : {{ proposal.question }} ?</label>
+  <br>
+  <h3> Votes for this referendum {{proposal.yes}}</h3>  <h3> Votes Against for this referendum {{proposal.no}}</h3>
+  <h3> Total number of votes {{proposal.total}}</h3>
+  <button (click)="redirectHome()">Save and Exit</button>
+</div>

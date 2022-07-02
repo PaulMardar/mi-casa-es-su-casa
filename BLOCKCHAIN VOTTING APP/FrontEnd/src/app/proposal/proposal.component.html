@@ -1,0 +1,42 @@
+
+
+<body>
+  <h1 style="color: black">Referendums</h1>
+  <div class="column-left">
+    <h2 style="color: black">Vote on Active Referendums</h2>
+<ul class="prososals">
+    <li *ngFor="let proposal of proposals">
+      <div>
+      <a [routerLink]="['/proposals', proposal.id]">
+      <button type="button">
+        <span class="proposalName">{{proposal.name}} </span>
+      </button>
+      </a>
+    </div>
+   
+  </li>
+
+</ul>
+</div>
+<div class="column-left" >
+  <h2 style="color: black">Referendums Statistics</h2>
+<ul class="prososals">
+  <li *ngFor="let proposal of proposals">
+    <div>
+    <a [routerLink]="['/finishedProposal', proposal.id]">
+    <button type="button">
+      <span class="proposalName">{{proposal.name}} </span>
+    </button>
+    </a>
+  </div>
+  
+</li>
+
+</ul>
+</div>
+
+</body>
+<a [routerLink]="['/home']"
+><button type="button">
+  <span >Home </span>
+</button></a>

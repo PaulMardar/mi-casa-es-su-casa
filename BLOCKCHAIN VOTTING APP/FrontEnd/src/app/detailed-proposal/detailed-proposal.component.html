@@ -1,0 +1,14 @@
+
+
+<h2>Proposal</h2>
+<div *ngIf="proposal$ | async as proposal">
+  <h3>{{ proposal.name }}</h3>
+  <p>Id: {{ proposal.id }}</p>
+  <label for="proposal-name">Referendu name: {{ proposal.name }}</label>
+  <br>
+  <label for="proposal-question">Question : {{ proposal.question }} ?</label>
+  <br>
+  <button (click)="voteYes($event)">Vote YES</button>
+  <button (click)="voteNo($event)">Vote No</button>
+  <button (click)="redirectHome()">Exit</button>
+</div>

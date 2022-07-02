@@ -1,0 +1,13 @@
+
+<h2>Elections</h2>
+<div *ngIf="election$ | async as election">
+  <h3>{{ election.electionName }}</h3>
+  <p>Id: {{ election.id }}</p>
+  <label for="election-name">election position: {{ election.position }}</label>
+  <br>
+  <label for="election-question">candidates : {{ election.candidates }} ?</label>
+  <br>
+  <button (click)="voteYes($event)">Vote YES</button>
+
+
+</div>
